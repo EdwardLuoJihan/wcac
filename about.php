@@ -35,7 +35,7 @@
     <meta property="twitter:title" content="West Canada Art Centre">
     <meta property="twitter:description" content="A non-profit society based in Edmonton, Alberta that seeks to spread creativity among youth and foster the love of art.">
     <meta property="twitter:image" content="https://temp-wcac.herokuapp.com/images/2019-group.jpg">
-    <title>West Canada Art Centre | Home</title>
+    <title>West Canada Art Centre | About</title>
 </head>
 <body>
     <div class="navbar">
@@ -44,10 +44,10 @@
             <span style="cursor:pointer">West Canada Art Centre</span>
         </div>
         <div class="links">
-            <a class="navbar_link" id="home">
+            <a class="navbar_link" href="home">
                 <span>Home</span>
             </a>
-            <a class="navbar_link" href="about">
+            <a class="navbar_link" id="about">
                 <span>About</span>
             </a>
             <a class="navbar_link" href="extracurriculars">
@@ -55,42 +55,10 @@
             </a>
         </div>
     </div>
-    <div class="hero">
-        <div class="cover">
-            <div class="text">
-                <h1>West Canada Art Centre</h1>
-                <h2>A non-profit society based in Edmonton, Alberta that seeks to spread creativity among youth and foster the love of art.</h2>
-                <btn class="learn-more-btn" id="explore">Explore</btn> 
-            </div>
-            <div class="images">
-                <img src="images/2018-group.png" alt="" class="group-photo">
-                <img src="images/2019-group.jpg" alt="" class="group-photo2">
-            </div>
-        </div>
-    </div>
-    <div class="main" id="main">
-        <div class="newyear">
-            <h1>New Year Gala Celebration</h1>
-            <iframe height="400" width="500" src="https://westcanadaartcentre.ca/newYearGala.mp4" frameborder="0" allowfullscreen class="video"></iframe>
-        </div>
-        <div class="schedule">
-            <h1>Class Schedule</h1>
-            <img src="images/class-schedule.jpg" alt="">
-        </div>
-        <div class="rules">
-            <h1>Rules</h1>
-            <img src="images/rules.png" alt="">
-        </div>
-    </div>
     <div class="p" id="popup"><a href="https://inlowik.herokuapp.com" target="_blank">Website by me ^-^</a><br><span>Had to plug myself (￣∇￣)</span></div>
     <img src="images/popup.png" alt="" class="popup" onclick="document.getElementById('popup').classList.toggle('toggleShow')">
     <script>
-        $("#explore").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#main").offset().top - 150
-            }, 0);
-        });
-        $("#home").click(function() {
+        $("#about").click(function() {
             $('html, body').animate({
                 scrollTop: 0
             }, 0);
