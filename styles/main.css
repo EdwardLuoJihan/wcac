@@ -176,37 +176,6 @@ body {
     content: '';
 }
 
-.navbar_link:before {
-    transition: all 0.2s ease;
-    opacity: 0;
-    pointer-events: none;
-    font-weight: 400;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 170%;
-    padding: 5px 10px;
-    border-radius: 2px;
-    box-shadow: #ffe44c27 0px 5px 15px;
-}
-
-.navbar_link:hover:before {
-    opacity: 1;
-}
-
-.navbar_link:last-child:before {
-    transition-delay: 0.3s;
-    content: 'Extracurriculars';
-}
-
-.navbar_link:nth-child(2):before {
-    display: none;
-}
-
-.navbar_link:nth-child(1):before {
-    display: none;
-}
-
 /* Hero */
 
 .hero {

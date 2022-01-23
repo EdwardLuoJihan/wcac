@@ -51,7 +51,7 @@
                 <span>About</span>
             </a>
             <a class="navbar_link" id="eca">
-                <span>ECAs</span>
+                <span>Extracurriculars</span>
             </a>
         </div>
     </div>
