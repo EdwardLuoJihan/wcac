@@ -79,7 +79,7 @@
         </div>
         <div class="rules">
             <h1>Rules</h1>
-            <img src="images/rules.png" alt="">
+            <img src="images/rules.png" alt="" onclick="modal()">
         </div>
     </div>
     <div class="p" id="popup"><a href="https://inlowik.herokuapp.com" target="_blank">Website by me ^-^</a><br><span>Had to plug myself (￣∇￣)</span></div>
