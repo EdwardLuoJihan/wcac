@@ -40,7 +40,6 @@
 <body>
     <div class="navbar">
         <div class="logo_container">
-            <img src="images/logo.png" alt="" class="logo" style="cursor:pointer">
             <span style="cursor:pointer">West Canada Art Centre</span>
         </div>
         <div class="links">
