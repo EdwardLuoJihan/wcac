@@ -41,7 +41,7 @@ function preloadImages(array) {
     }
 }
 
-preloadImages(["2018-group.png", '2019-group.jpg', 'banner.jpg', 'chess.jpg', 'class-schedule.jpg', 'english-writing.jpg', 'group-banner.jpg', 'logo.png', 'math.jpg', 'rules.png'])
+preloadImages(["2018-group.png", '2019-group.jpg', 'banner.jpg', 'chess.jpg', 'class-schedule.jpg', 'english-writing.jpg', 'group-banner.jpg', 'logo.png', 'math.jpg', 'rules.png', 'popup.png', 'bg.png', 'bg2.png'])
 
 document.addEventListener('DOMContentLoaded', () => {
     'use strict';
