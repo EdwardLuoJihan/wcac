@@ -52,15 +52,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const options = {
         eventType: 'keydown',
-        keystrokeDelay: 1500
+        keystrokeDelay: 1000
     };
 
     keyMapper([Reveal], options);
 });
 
 function keyMapper(callbackList, options) {
-    const eventType = options && options.eventType || 'keydown';
-    const keystrokeDelay = options && options.keystrokeDelay || 1500;
+    const eventType = options && options.eventType;
+    const keystrokeDelay = options && options.keystrokeDelay;
 
     let state = {
         buffer: [],
