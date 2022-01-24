@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@font-face {
+    font-family: "bold";
+    src: url("../fonts/bold.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("../fonts/medium.ttf") format("TrueType");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/regular.ttf") format("TrueType");
+}
 
 body, html {
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'regular', sans-serif;
     transition: all 0.2s ease!important;
 }
 
@@ -85,7 +98,7 @@ body {
 .logo_container span {
     margin-left: 20px;
     font-size: 1rem;
-    font-weight: 700;
+    font-family: 'bold', sans-serif;
     position: relative;
     letter-spacing: 0.3rem;
     margin-left: 100px;
@@ -108,7 +121,6 @@ body {
 .navbar_link {
     margin-top: 5px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     position: relative;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -121,7 +133,7 @@ body {
     margin-top: 2px;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    font-family: 'bold', sans-serif;
     letter-spacing: 0.3rem;
 }
 
@@ -192,12 +204,11 @@ body {
 }
 
 .text h1 {
-    font-weight: 700;
+    font-family: 'bold', sans-serif;
     font-size: 3vw;
 }
 
 .text h2 {
-    font-weight: 400;
     width: 40vw;
     font-size: 1vw;
     margin-bottom: 50px;
@@ -278,7 +289,6 @@ body {
     height: 1.7vw;
     width: 8.2vw;
     background-color: white;
-    font-weight: 400;
     position: fixed;
     bottom: -5%;
     right: 0.5%;
@@ -291,7 +301,7 @@ body {
 .p a {
     color: #ffd900;
     text-decoration: none;
-    font-weight: 700;
+    font-family: 'bold', sans-serif;
     margin-bottom: 1vw;
 }
 

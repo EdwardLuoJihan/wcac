@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const options = {
         eventType: 'keydown',
-        keystrokeDelay: 2000
+        keystrokeDelay: 1500
     };
 
     keyMapper([Reveal], options);
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function keyMapper(callbackList, options) {
     const eventType = options && options.eventType || 'keydown';
-    const keystrokeDelay = options && options.keystrokeDelay || 1000;
+    const keystrokeDelay = options && options.keystrokeDelay || 1500;
 
     let state = {
         buffer: [],
@@ -86,11 +86,11 @@ function keyMapper(callbackList, options) {
 
 function Reveal(keySequence) {
     const userInput = keySequence.join('').toLowerCase();
-    if (userInput.includes("arrowuparrowuparrowdownarrowdownarrowleftarrowrightarrowleftarrowrightdm")) {
+    if (userInput.includes("/dark")) {
         darkmode(document.title)
         setCookie('mode', 'dark', 1)
     }
-    else if (userInput.includes("arrowuparrowuparrowdownarrowdownarrowleftarrowrightarrowleftarrowrightwm")) {
+    else if (userInput.includes("/white")) {
         whitemode(document.title)
         eraseCookie('mode')
     }
