@@ -38,18 +38,18 @@
     <title>West Canada Art Centre | Extracurriculars</title>
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="nav">
         <div class="logo_container">
-            <span style="cursor:pointer">West Canada Art Centre</span>
+            <span style="cursor:pointer" id="logotext">West Canada Art Centre</span>
         </div>
         <div class="links">
-            <a class="navbar_link" href="home">
+            <a class="navbar_link" id="home" href="home">
                 <span>Home</span>
             </a>
-            <a class="navbar_link" href="about">
+            <a class="navbar_link" id="ab" href="about">
                 <span>About</span>
             </a>
-            <a class="navbar_link" id="eca">
+            <a class="navbar_link" id="ec">
                 <span>Extracurriculars</span>
             </a>
         </div>
@@ -57,7 +57,7 @@
     <div class="p" id="popup"><a href="https://inlowik.herokuapp.com" target="_blank">Website by me ^-^</a><br><span>Had to plug myself (￣∇￣)</span></div>
     <img src="images/popup.png" alt="" class="popup" onclick="document.getElementById('popup').classList.toggle('toggleShow')">
     <script>
-        $("#eca").click(function() {
+        $("#ec").click(function() {
             $('html, body').animate({
                 scrollTop: 0
             }, 0);
